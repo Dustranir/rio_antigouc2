@@ -5,7 +5,7 @@ h1{
 }
 
 h2 {
-    color: yellow;
+    color: rgb(133, 133, 1);
     font-size: 26px;
 }
 
@@ -14,11 +14,6 @@ h3{
     font-size: 24px;
 }
 
-body{
-    background-color: black;
-}
-
 p{
-    color: white;
     font-size: 22;
 }
