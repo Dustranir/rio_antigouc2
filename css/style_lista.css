@@ -1,0 +1,15 @@
+a {
+    color: rgb(0,0,0);
+    display:inline-block;
+    text-decoration: none;
+    transition: background .3s;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+a:hover{
+    background-color:rgb(79,80,42);
+    color: rgb(213,216,179);
+    text-decoration: underline;
+}
