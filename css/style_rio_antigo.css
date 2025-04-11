@@ -1,19 +1,29 @@
-h1{
+
+
+h1 {
     text-align: center;
     color: green;
     font-size: 28px;
+    margin: 20px;
+    padding: 10px;
 }
 
 h2 {
     color: rgb(133, 133, 1);
     font-size: 26px;
+    margin: 18px;
+    padding: 8px;
 }
 
-h3{
+h3 {
     color: blue;
     font-size: 24px;
+    margin: 16px;
+    padding: 6px;
 }
 
-p{
-    font-size: 22;
+p {
+    font-size: 22px;
+    margin: 12px;
+    padding: 6px;
 }
