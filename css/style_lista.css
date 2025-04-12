@@ -13,3 +13,16 @@ a:hover{
     color: rgb(213,216,179);
     text-decoration: underline;
 }
+
+.hmenu{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hmenu ul{
+    list-style: lower-latin;
+    padding: 5px;
+}
+
+.hmenu ul li {
+    display: ;
+}
