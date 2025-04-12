@@ -1,17 +1,17 @@
 a {
     color: rgb(0,0,0);
-    display:inline-block;
+    display:block;
     text-decoration: none;
     transition: background .3s;
-    text-transform: uppercase;
-    font-weight: bold;
+    text-transform: capitalize;
+    font-weight:normal ;
     font-size: 15px;
 }
 
 a:hover{
-    background-color:rgb(79,80,42);
+    background-color:white;
     color: rgb(213,216,179);
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .hmenu{
@@ -19,10 +19,11 @@ a:hover{
 }
 
 .hmenu ul{
-    list-style: lower-latin;
+    list-style:upper-roman;
     padding: 5px;
 }
 
 .hmenu ul li {
-    display: ;
+    display: inline;
+    border: 3px;
 }
