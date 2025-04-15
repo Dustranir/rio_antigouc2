@@ -5,7 +5,7 @@
     font-family: "Roboto";
 }
 .cabecalho {
-    background-color: white;
+    background-color: rgb(236, 220, 191);
     padding: 10px 0;
     width:940px;
 }
@@ -43,3 +43,8 @@
     color:orange;
     border-bottom: 1px solid orange;
 }
+
+.conteudo-principal, .rodape-principal {
+    width: 940px;
+}
+
