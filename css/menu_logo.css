@@ -23,7 +23,7 @@
 .hmenu{
     position: absolute;
     top: 55px;
-    right: 20px;
+    right: 0px;
 }
 .hmenu ul li{
     display: inline;
@@ -44,7 +44,5 @@
     border-bottom: 1px solid orange;
 }
 
-.conteudo-principal, .rodape-principal {
-    width: 940px;
-}
+
 
