@@ -1,0 +1,76 @@
+.divform {
+    border: 1px solid blue;
+    width: 680px;
+    background-color: rgb(245, 245, 245);
+    padding: 10px;
+}
+
+.divform fieldset{
+    border:none;
+}
+
+.label{
+    font-size: 20px;
+    padding:8px 0 6px 0;
+}
+
+.divform input[type=text],
+.divform input[type=email],
+.divform input[type=tel] {
+    width: 100%;
+    padding: 10px;
+    margin: 6px 0;
+    box-sizing: border-box;
+    border:1px solid blueviolet ;
+    border-radius: 4px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+
+}
+
+.radio{
+
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    margin-left: 10px;
+
+}
+
+.label-radio{
+    display:inline;
+    padding-left: 6px;
+    color: coral;
+    font-size: 18px;
+}
+
+.divform select{
+    width: 100%;
+    padding: 10px 10px;
+    border: 1px solid rgb(10, 10, 3);
+    border-radius: 4px;
+    font-size: 16px;
+    color:brown
+}
+
+.mytextarea{
+    width:100%;
+    padding: 10px;
+    resize: none;
+    box-sizing: border-box;
+    border: 1px solid crimson;
+    border-radius: 4px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+}
+
+.botoes input [type=reset],
+.botoes input [type=submit]{
+    cursor: pointer;
+    border-radius: 4px;
+    margin:4px 2px;
+    display:inline-block;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    padding:8px;
+}

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,6 +15,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <header class="cabecalho">
         <div class="caixa">
@@ -35,59 +37,68 @@
         <div class="titulo-principal">
             <h2> Converse Conosco</h2>
         </div>
-        
-        <div>
+
+        <div class="divform">
+
             <form name="frmContato" id="idContato" action="#" method="post">
 
-                <div>
-                    <label for="idNome"> Nome</label>
-                </div>
-                <input id="idNome" type="text" name="nome" maxlenght="70" placeholder="Digite o seu nome" required>
+                <fieldset>
 
-                <div>
-                    <label for="idEmail"> Email</label>
-                </div>
-                <input id="idEmail" type="text" name="email" maxlenght="70" placeholder="Digite o seu email" required>
-                
-                <div>
-                    <label for="idTelefone"> Telefone</label>
-                </div>
-                <input id="idTelefone" type="tel" name="telefone" maxlenght="70" placeholder="Digite o seu telefone" required>
+                    <div class="label">
+                        <label for="idNome"> Nome</label>
+                    </div>
+                    <input id="idNome" type="text" name="nome" maxlenght="70" placeholder="Digite o seu nome" required>
 
-                <div>
-                    <label for="idNome"> Nome</label>
-                </div>
-                <input id="idNome" type="text" name="nome" maxlenght="70" placeholder="Digite o seu nome" required>
+                    <div class="label">
+                        <label for="idEmail"> Email</label>
+                    </div>
+                    <input id="idEmail" type="text" name="email" maxlenght="70" placeholder="Digite o seu email"
+                        required>
 
-                <div>
-                    <label>Gênero</label>
-                </div>
+                    <div class="label">
+                        <label for="idTelefone"> Telefone</label>
+                    </div>
+                    <input id="idTelefone" type="tel" name="telefone" maxlenght="70" placeholder="Digite o seu telefone"
+                        required>
 
-                <input type="radio" name="genero" value="F" id="idGeneroF"><label for ="idGeneroF">Feminino</label>
-                <input type="radio" name="genero" value="M" id="idGeneroM"><label for ="idGeneroM">Masculino</label>
+                    <div class="label">
+                        <label for="idNome"> Nome</label>
+                    </div>
+                    <input id="idNome" type="text" name="nome" maxlenght="70" placeholder="Digite o seu nome" required>
 
-                <div>
-                    <label id="idAssunto">Assunto</label>
-                </div>
+                    <div class="label">
+                        <label>Gênero</label>
+                    </div>
 
-                <select name="assunto" id="idAssunto">
-                    <option value="0" selected>Selecione</option> <!-- Opção "select" deixa a opção sempre selecionada em 1 -->
-                    <option value="E">Elogio</option>
-                    <option value="C">Critica</option>
-                    <option value="S">Solicitação</option>
-                    <option value="O">Outros</option>
-                </select>
+                    <input type="radio" name="genero" value="F" id="idGeneroF"><label for="idGeneroF" class="radio"
+                        class="label-radio">Feminino</label>
+                    <input type="radio" name="genero" value="M" id="idGeneroM"><label for="idGeneroM" class="radio"
+                        class="label-radio">Masculino</label>
 
-                <div>
-                    <label id="idMensagem">Mensagem</label>
-                </div>
-                <textarea rows="10" cols="200" id="idMensagem" name="mensagem" placeholder="Preencha com a mensagem desejada"></textarea>
+                    <div class="label">
+                        <label id="idAssunto">Assunto</label>
+                    </div>
 
-                <div>
-                    <input type="reset" value="Limpar">
-                    <input type="submit" value="Enviar">
-                </div>
-                
+                    <select name="assunto" id="idAssunto">
+
+                        <option value="0" selected>Selecione</option> <!-- Opção "select" deixa a opção sempre selecionada em 1 -->
+                        <option value="E">Elogio</option>
+                        <option value="C">Critica</option>
+                        <option value="S">Solicitação</option>
+                        <option value="O">Outros</option>
+                    </select>
+
+                    <div class="label">
+                        <label id="idMensagem">Mensagem</label>
+                    </div>
+                    <textarea rows="10" cols="200" id="idMensagem" name="mensagem"
+                        placeholder="Preencha com a mensagem desejada" class="mytextarea"></textarea>
+
+                    <div>
+                        <input type="reset" value="Limpar">
+                        <input type="submit" value="Enviar">
+                    </div>
+                </fieldset>
             </form>
         </div>
     </main>
@@ -96,4 +107,5 @@
         Material disponibilizado pelo Prof. Ferreira aos alunos do Senac RJ Botafogo no dia 09/04/2025.
     </footer>
 </body>
+
 </html>
